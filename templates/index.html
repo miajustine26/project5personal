@@ -3,9 +3,124 @@
   <head>
     <meta charset="utf-8">
     <title>Trade Post</title>
-    <!-- bootstrap please -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
   </head>
   <body>
-    <!-- paste your code from 2 years ago if you have it -->
+    <div class="jumbotron">
+      <div class="container text-center">
+          <p><h1>Mija</h1></p>
+      </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <img src="Image/mijaLogo.jpg">
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Clothing
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="tops.html">Tops</a></li>
+                <li><a href="bottoms.html">Bottoms</a></li>
+                <li><a href="dresses.html">Dresses</a></li>
+                <li><a href="activewear.html">Activewear</a></li>
+                <li><a href="rompers.html">Rompers</a></li>
+                <li><a href="jackets.html">Sweatshirts & Jackets</a></li>
+                <li><a href="swimwear.html">Swimwear</a></li>
+                <li><a href="sleepwear.html">Sleepwear</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+          </li>
+          <li><a href="cart.html">My Cart</a></li>
+          <li><a href="help.html">Help & FAQ's</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+        <form class="navbar-form navbar-right" action="/action_page.php">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="search">
+            <div class="input-group-btn">
+              <a href="search.html" class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="items">
+      <div class="row">
+        <br>
+        <br>
+        <br>
+        <h2>Deals</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel">
+            <div class="panel-heading">Jean Shorts</div>
+            <div class="panel-body"><img src="Image/bottom1.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">$9.99 SALE</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel">
+            <div class="panel-heading">Floral Jacket</div>
+            <div class="panel-body"><img src="Image/jacket5.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">$15.99 SALE</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel">
+            <div class="panel-heading">Floral Shorts</div>
+            <div class="panel-body"><img src="Image/bottom3.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">$9.99 SALE</div>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel">
+            <div class="panel-heading">Fuzzy Shorts</div>
+            <div class="panel-body"><img src="Image/sleepwear2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">$7.99 SALE</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel">
+            <div class="panel-heading">Red Floral Btahing Suit</div>
+            <div class="panel-body"><img src="Image/swimwear4.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">$12.99 SALE</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel">
+            <div class="panel-heading">Rose Gold Sneakers</div>
+            <div class="panel-body"><img src="Image/shoes3.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">$18.99 SALE</div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+
+    </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <p>©Mija 2018</p>
+      <form class="form-inline">Get deals:
+        <input type="email" class="form-control" size="50" placeholder="Email Address">
+        <button type="button" class="btn btn-danger">Sign Up</button>
+      </form>
+    </footer>
   </body>
 </html>

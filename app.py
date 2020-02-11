@@ -12,7 +12,7 @@ def about():
     return render_template('about.html')
 
 @app.route('/cart')
-def home():
+def cart():
     return render_template('cart.html', cart=cart)
 
 if __name__ == '__name__':
